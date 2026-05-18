@@ -1,0 +1,35 @@
+# 환경 변수 (시크릿!)
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+ENV/
+
+# SQLite (캐시 DB - 나중에 생김)
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 데모 영상 / 내부 자료 (repo에 불필요 — 영상은 YouTube/Devpost로 배포)
+*.mp4
+*.mov
+video_voiceover_script.md
